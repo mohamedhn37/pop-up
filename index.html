@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb2c4c5d98.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>My landing page</title>
+</head>
+<body>
+    <header>
+        <button class="menuslide"><i class="fa-solid fa-bars"></i></button>
+        <div class="content">
+            <h2>My Landing Page</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, soluta dolore omnis quos ea reiciendis?</p>
+            <button id="showup">Sign Up</button>
+            <div id="popup"  class="modal">
+                <span class="close">&times;</span>
+                <form>
+                    <h2>Entrer vos infos</h2>
+                    <label for="inputname">Name</label>
+                    <input type="text" id="inputname" placeholder="Your Name">
+                    <label for="inputpwd">Password</label>
+                    <input type="password" id="inputpwd" placeholder="Password">
+                    <button id="signin">Sign up</button>
+                    </div>
+                </form>
+        </div>
+    </header>
+    <main>
+        <div class="menuslide-content animate__animated animate__bounceInLeft" style="display: none;">
+            <div class="cont">
+                <img src="https://placehold.jp/100x100.png" alt="img">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-blog">
+            <section class="about">
+                <h3>What is this landign page about ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deserunt ipsam blanditiis, voluptates similique commodi soluta aspernatur dolorum atque quis itaque culpa minima laudantium maiores fuga aliquid adipisci dicta. Eius corrupti esse voluptatum culpa earum, porro consequatur perspiciatis omnis. Ab.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio eius veniam. Minima, soluta. Eveniet minima doloremque voluptatibus assumenda commodi!</p>
+            </section>
+            <section class="telme">
+                <h3>Tell Me More</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deserunt ipsam blanditiis, voluptates similique commodi soluta aspernatur dolorum atque quis itaque culpa minima laudantium maiores fuga aliquid adipisci dicta. Eius corrupti esse voluptatum culpa earum, porro consequatur perspiciatis omnis. Ab.</p>
+            </section>
+            <section class="benefit">
+                <h3>Benefits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deserunt ipsam blanditiis, voluptates similique commodi soluta aspernatur dolorum atque quis itaque culpa minima laudantium maiores fuga aliquid adipisci dicta. Eius corrupti esse voluptatum culpa earum, porro consequatur perspiciatis omnis. Ab.</p>
+            </section>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

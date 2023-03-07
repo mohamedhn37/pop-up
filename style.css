@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --header-col: #30336B;
+    --btn-col:#BE2EDD;
+}
+header{
+    background-color: var(--header-col);
+}
+header .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.menuslide{
+    font-size: 20px;
+    margin: 15px;
+    color: #fff;
+    background: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+.btnmodifier{
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    border: 1px solid var(--header-col);
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+    z-index: 1;
+    position: absolute;
+}
+header .content h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+header .content p{
+    margin-bottom: 20px;
+    color: #fff;
+}
+header .content button{
+    padding: 15px 30px;
+    background-color: var(--btn-col);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.modal{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.7); 
+}
+.modal form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 40px;
+    border: none;
+    border-radius: 15px;
+}
+.modal form h2{
+    color: black;
+}
+.modal form label {
+    margin-bottom: 10px;
+}  
+.modal form input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+  color: var(--btn-col);
+  text-decoration: none;
+  cursor: pointer;
+}
+.menuslide-content{
+    position: absolute;
+    width: 20%;
+    height: 700px;
+    top: 0;
+    background-color: var(--btn-col);
+}
+.menuslide-content .cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.menuslide-content img{
+   border-radius: 100%;
+   margin-bottom: 50px;
+}
+.menuslide-content ul{
+    list-style: none;
+    margin-left: -50px;
+}
+.menuslide-content ul li{
+    margin: 10px 0;
+}
+.menuslide-content ul li a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.content-blog{
+    width: 80%;
+    margin: 35px auto;
+    text-align: justify;
+}
+.content-blog-modifier{
+    width: 75%;
+    margin-right: 30px;
+}
+.about,.telme,.benefit{
+    margin: 30px 0;
+}
+.about h3,.telme h3,.benefit h3{
+    padding-bottom: 10px;
+}
+.about p{
+    padding-bottom: 20px;
+}
+
+.d-none{
+    display: none;
+}
